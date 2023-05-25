@@ -4,7 +4,7 @@ public class Main {
         Author author2 = new Author("Михаель", "Гавен");
 
         Book book1 = new Book("Адмирал", 2016, author1);
-        Book book2 = new Book("Заговор адмирала", 2013, author2);
+        Book book2 = new Book("Заговор адмирала", 2013, author1);
         System.out.println("Автор: " + author1.getFullName());
         System.out.println("Автор: " + author2.getFullName());
 
